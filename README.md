@@ -5,6 +5,8 @@ _Um pequeno hospital local busca desenvolver um novo sistema que atenda melhor �
 ## Descrição
 Essa atividade foi proposta pelo professor Gabriel Augusto, no curso de desenvolvimento web fullstack em java, fornecido pelo Instituto Proa. A proposta da atividade é modelar, desenvolver e manipular uma base de dados para um hospital fictíceo, com objetivo de desenvolver conhecimentos em modelagem conceitual, lógica e física de banco de dados, operações CRUD e em linguagem MySQL.
 
+<br>
+
 ## Modelagem Conceitual em DER
 Foram propostas essas informações para trabalhar:
 ```
@@ -16,7 +18,7 @@ As consultas também têm sido registradas em planilhas, com data e hora de real
 Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramento da consulta, ele possa registrar os medicamentos receitados, a quantidade e as instruções de uso. A partir disso, espera-se que o sistema imprima um relatório da receita ao paciente ou permita sua visualização via internet.
 ```
 
-### 1. Entidades
+### 1. Detalhamento
 As entidades identificadas foram: **`cadastro_paciente`**, **`cadastro_medico`**, **`dados`**, **`contato`**, **`endereco`**, **`consulta`**, **`convenio`** e **`receita_medica`**.
 
 <img src='./modelagemConceitual(extendida)_Hospital.png'/>
