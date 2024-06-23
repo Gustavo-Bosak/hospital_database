@@ -19,7 +19,7 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
 ### 1. Entidades
 As entidades identificadas foram: **`cadastro_paciente`**, **`cadastro_medico`**, **`dados`**, **`contato`**, **`endereco`**, **`consulta`**, **`convenio`** e **`receita_medica`**.
 
-<img src='./'/>
+<img src='./modelagemConceitual(extendida)_Hospital.png'/>
 
 **`cadastro_paciente`** será preenchida com dados informados pela entidade `dados` e recebe algmas chaves, como `id_paciente` para identificação do paciente e `cnpj_convenio`, que é chave estraneira, para a 
 identificação de qual convênio o paciente está vinculado.
@@ -35,7 +35,7 @@ E para a entidade **`convenio`**, os dados do campo `cnpj_convenio` serão expor
 ### 2. Método
 A modelagem foi feita em DER utilizando o site https://draw.io
 
-<img src='./'/>
+<img src='./modelagemConceitual_Hospital.png'/>
 
 ## Modelagem Lógica em Tabelas
 ### 1. Detalhamento
