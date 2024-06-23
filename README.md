@@ -5,6 +5,7 @@ _Um pequeno hospital local busca desenvolver um novo sistema que atenda melhor �
 ## Descrição
 Essa atividade foi proposta pelo professor Gabriel Augusto, no curso de desenvolvimento web fullstack em java, fornecido pelo Instituto Proa. A proposta da atividade é modelar, desenvolver e manipular uma base de dados para um hospital fictíceo, com objetivo de desenvolver conhecimentos em modelagem conceitual, lógica e física de banco de dados, operações CRUD e em linguagem MySQL.
 
+## Modelagem Conceitual em DER
 Foram propostas essas informações para trabalhar:
 ```
 O hospital necessita de um sistema para sua área clínica que ajude a controlar consultas realizadas. Os médicos podem ser generalistas, especialistas ou residentes e têm seus dados pessoais cadastrados em planilhas digitais. Cada médico pode ter uma ou mais especialidades, que podem ser pediatria, clínica geral, gastroenterologia e dermatologia. Alguns registros antigos ainda estão em formulário de papel, mas será necessário incluir esses dados no novo sistema.
@@ -15,7 +16,6 @@ As consultas também têm sido registradas em planilhas, com data e hora de real
 Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramento da consulta, ele possa registrar os medicamentos receitados, a quantidade e as instruções de uso. A partir disso, espera-se que o sistema imprima um relatório da receita ao paciente ou permita sua visualização via internet.
 ```
 
-## Modelagem Conceitual em DER
 ### 1. Entidades
 As entidades identificadas foram: **`cadastro_paciente`**, **`cadastro_medico`**, **`dados`**, **`contato`**, **`endereco`**, **`consulta`**, **`convenio`** e **`receita_medica`**.
 
@@ -38,6 +38,11 @@ A modelagem foi feita em DER utilizando o site https://draw.io
 <img src='./modelagemConceitual_Hospital.png'/>
 
 ## Modelagem Lógica em Tabelas
+Foram propostas essas informações para trabalhar:
+```
+O hospital
+```
+
 ### 1. Detalhamento
 Item
 
@@ -45,6 +50,11 @@ Item
 A modelagem foi feita utilizando o site https://dbdesigner.net
 
 ## Modelagem Física em MySQL
+Foram propostas essas informações para trabalhar:
+```
+O hospital 
+```
+
 ### 1. Detalhamento
 Item
 
