@@ -21,7 +21,8 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
 ### 1. Detalhamento
 As entidades identificadas foram: **`cadastro_paciente`**, **`cadastro_medico`**, **`dados`**, **`contato`**, **`endereco`**, **`consulta`**, **`convenio`** e **`receita_medica`**.
 
-<img src='./modelagemConceitual(extendida)_Hospital.png'/>
+<img src='./modelagemConceitual_Hospital.png'/>
+
 
 **`cadastro_paciente`** será preenchida com dados informados pela entidade `dados` e recebe algmas chaves, como `id_paciente` para identificação do paciente e `cnpj_convenio`, que é chave estraneira, para a 
 identificação de qual convênio o paciente está vinculado.
@@ -34,10 +35,12 @@ identificação de qual convênio o paciente está vinculado.
 
 E para a entidade **`convenio`**, os dados do campo `cnpj_convenio` serão exportados para vincular o convênio tanto como método de pagamento quanto para associação.
 
+Modelo lógico demonstrando os campos:
+
+<img src='./modelagemConceitual(extendida)_Hospital.png'/>
+
 ### 2. Método
 A modelagem foi feita em DER utilizando o site https://draw.io
-
-<img src='./modelagemConceitual_Hospital.png'/>
 
 ## Modelagem Lógica em Tabelas
 Foram propostas essas informações para trabalhar:
@@ -63,10 +66,19 @@ Por último, crie um script SQL para a geração do banco de dados e para instru
 ```
 
 ### 1. Detalhamento
-Item
+Como mostrado acima e no diagrama anterior, foram conectados os diagramas do seguinte jeito:
+
+<img src='./modelagemConceitual(extendida)_Hospital.png'/>
+
+Houveram alterações no diagrama de exemplo dos quartos para fins de otimização e interação entre tabelas.
+Foram adicionados os campos `id_quarto`, `id_paciente` e `corem` na entidade **`internacao`**, a fim de a vincular c
+
+Modelo lógico com todas as entidades vinculadas:
+
+<img src='./modelagemConceitual(extendida)_Hospital.png'/>
 
 ### 2. Método
-A modelagem foi feita utilizando o site https://dbdesigner.net
+A modelagem foi feita utilizando o site https://draw.io e parcialmente o site https://dbdiagram.io
 
 ## Modelagem Física em MySQL
 Foram propostas essas informações para trabalhar:
