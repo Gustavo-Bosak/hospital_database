@@ -66,19 +66,18 @@ Por último, crie um script SQL para a geração do banco de dados e para instru
 ```
 
 ### 1. Detalhamento
-Como mostrado acima e no diagrama anterior, foram conectados os diagramas do seguinte jeito:
+Com base nos diagramas mostrados anteriormente, o modelo foi proposto da seguinte maneira:
 
-<img src='./modelagemConceitual(extendida)_Hospital.png'/>
+<img src='./modelagemLogica_Hospital.png'/>
 
 Houveram alterações no diagrama de exemplo dos quartos para fins de otimização e interação entre tabelas.
-Foram adicionados os campos `id_quarto`, `id_paciente` e `corem` na entidade **`internacao`**, a fim de a vincular c
+Foram adicionados os campos `id_quarto`, `id_paciente` e `corem` na entidade **`internacao`**, a fim de a vincular as entidades do segundo com o primeiro, preservando funcionalidade. Além disso foram estabelecidas as relações entre cada entidade.
 
-Modelo lógico com todas as entidades vinculadas:
+_Arquivo de SQL Script anexado no repositório_
 
-<img src='./modelagemConceitual(extendida)_Hospital.png'/>
 
 ### 2. Método
-A modelagem foi feita utilizando o site https://draw.io e parcialmente o site https://dbdiagram.io
+A modelagem foi feita utilizando o site https://draw.io e https://dbdiagram.io
 
 ## Modelagem Física em MySQL
 Foram propostas essas informações para trabalhar:
